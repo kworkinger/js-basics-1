@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "Git is a local software (installed on one's device), which initiates a snapshot of one's code through a git init, add, commit and push process of commands. When Git is connected via GitHub (which acts as cloud storage): Git allows a user to execute steps in the terminal to upload user code to GitHub. This code is stored in the online repository in GitHub."
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = "GitHub is the cloud storage space for your code. GitHub allows a user to create a repository which is linked to Git via the git push command in one's Git terminal. Git commands provide the data to be uploaded to GitHub (git init, git add ., git commit -m '', and git push)"
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
