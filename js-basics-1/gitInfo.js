@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-let gitDefinition = "Git is a local software (installed on one's device), which initiates a snapshot of one's code through a git init, add, commit and push process of commands. When Git is connected via GitHub (which acts as cloud storage): Git allows a user to execute steps in the terminal to upload user code to GitHub. This code is stored in the online repository in GitHub."
+let gitDefinition = "Git is a local software (installed on one's device), which initiates a snapshot of one's code through a git init, add, commit and push process of commands. When Git is connected via GitHub (which acts as cloud storage): Git allows a user to execute steps in the terminal to upload user code to GitHub. This code is stored in the online repository in GitHub. It tracks changes, shows the history of a project and is what's called a version control system."
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -34,7 +34,7 @@ let gitHubDefinition = "GitHub is the cloud storage space for your code. GitHub 
 */
 
 //CODE HERE
-let init = ["This command communicates a local repository is opened.", git init]
+let init = ["This command communicates for a local repository to be created in the present folder.", git init]
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -58,7 +58,7 @@ let status = ["This command tells a user if the branch is up to date, recommends
 */
 
 //CODE HERE
-let add = ["This command adds all the files in the file folder to be committed and pushed to GitHub.", git add .]
+let add = ["This command adds all the files in the file folder to be tracked and then committed/pushed to GitHub.", git add .]
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +66,7 @@ let add = ["This command adds all the files in the file folder to be committed a
 */
 
 //CODE HERE
-let commit = ["This command commits the added files with a message to GitHub. The message typically depicts what changes and additions were made.", git commit -m "message string"]
+let commit = ["This command creates a snapshot and commits the added files with a message to GitHub. The message typically depicts what changes and additions were made.", git commit -m "message string"]
 
 //////////////////PROBLEM 8////////////////////
 /*
